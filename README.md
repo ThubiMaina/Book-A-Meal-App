@@ -3,4 +3,4 @@ Book-A-Meal is an application that allows customers to make food orders and help
 
 ## The link to UI
 
-* [Book_A_MEAL](http://www.dropwizard.io/1.0.2/docs/) - Link to App
+* [Book_A_MEAL](https://thubimaina.github.io/Book-A-Meal-App/) - Link to App
