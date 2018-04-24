@@ -18,9 +18,9 @@
      }
     section{
         background-color: rgba(0, 130, 6, 0.54);
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 60px;
+        padding: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
         color: white;
         box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43)
        }
@@ -40,22 +40,21 @@
  <div class="clear"></div>
   <div id="menu-bar-2-container">
     <div id="menu-bar-2">
-      <a href="index.html">Menu</a>
-      <a href="order_history.html">History</a>
-      <a href="setupmenu.html">Daily menu set up</a>
-      <a href="#" id="break-nav"></a>
+      <a href="#">Menu</a>
+      <a href="book.html">Book</a>
+      <a href="#" id="break-nav"><i class="fa fa-bell"></i></a>
       <a href="login.html">Login</a>
-      <a href="#">Logout</a>
+      <a href="index.html">Logout</a>
     </div>
   </div>
         </header>
   
 <body style="background-image:  url(images/3.jpg); background-color: #DDD padding: 20px;
         margin-top: 0px;"  >
-
   
  <section>
-  <a class="button" href="create.html">Create A New Meal Option</a>
+ 
+  <center><h2>Breakfast</h2></center>
    <table class="table">
 
       <tr>
@@ -64,8 +63,8 @@
         <th>Description</th>
         <th>Price</th>
         <th>Quantity</th>
-        <th>Update</th>
-        <th>Delete</th>
+        <th>Order</th>
+        <th>Remove</th>
       </tr>
 
       <tr>
@@ -75,7 +74,7 @@
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
@@ -89,13 +88,15 @@
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
         </td>
       </tr>
-
+    </table>
+    <center><h3>Popular meals</h3></center>
+<table class="table">
       <tr>
         <td><img src="images/9.jpg" style="margin-top:-5px;margin-left: -10px; height: 50px; width: 60px"></td>
         <td>Mutton Masala</td>
@@ -104,7 +105,7 @@ Boneless pieces of tender mutton cooked with yoghurt, whole spices, onions, garl
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
@@ -119,7 +120,7 @@ Boneless chicken / mutton pieces cooked with fresh mint cumin seeds and rice</td
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
@@ -134,7 +135,7 @@ Half or full spring chicken quarters marinated in yoghurt and tandoor masala coo
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
@@ -149,7 +150,7 @@ Boneless pieces of chicken breast marinated in garlic, onions, green chilly and 
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
@@ -163,7 +164,7 @@ Boneless pieces of chicken breast marinated in garlic, onions, green chilly and 
         <td>400</td>
         <td><input type="text" placeholder="Quantity"></td>
         <td>
-          <a class="button" href="#">Update</a>
+          <a class="button" href="#">Order</a>
         </td>
         <td>
           <a href="#"><i class="fa fa-trash" style="font-size:40px;color:lightblue;"></i></a>
@@ -172,6 +173,7 @@ Boneless pieces of chicken breast marinated in garlic, onions, green chilly and 
     </table></center>
 
    </div>
+   <button type="submit" >Post Menu</button>
   </section>
   <center><footer class="footer" style="margin-top: 150px ; color: #000000 ; font-weight: bold; font-weight: 900;" ><small>copyright @ Book-A-Meal 2018|Developer @ Maina Erick</small></footer></center>
 </body>
