@@ -135,5 +135,8 @@ class UserTestCases(unittest.TestCase):
 	    response = self.app.post('api/auth/logon/', data=self.user_data)
 	    self.assertEqual(response.status_code, 404)
 
+	def tearDown(self):
+        """teardown all initialized variables."""
+        pass
 if __name__ == "__main__":
     unittest.main()
