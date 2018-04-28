@@ -1,7 +1,9 @@
-from os import path
-from app import create_app
 import unittest
 import json
+from os import path
+import sys
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+from app.app import create_app
 
 class UserTestCases(unittest.TestCase):
 	
@@ -45,7 +47,7 @@ class UserTestCases(unittest.TestCase):
 		    "email": "erick@gmail.com",
 		    "password": "password"
 		}))
-		result = self.app.post("/api/auth/register/", data=test_data,
+		result = self.app.post("/api/auth/register/", data = test_data,
 		                            content_type="application/json")
 		self.assertEqual(result.status_code, 400)
 
